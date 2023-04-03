@@ -1,0 +1,65 @@
+.background{
+    display: flex;
+    justify-content: space-around;
+    position:absolute;
+    height:711px;
+    width: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+
+button{
+    width:40%;
+    border-radius: 10px;
+    min-height: 2em;
+    font-size: 1.2em;
+    margin-top: 1em;
+}
+
+form{
+    position: relative;
+    background:#032d5d;
+    color: white;
+    text-align: center;
+    margin: auto;
+    padding:3em 3em 1.5em 3em;
+    width:30%;
+    border-radius: 5px;
+    z-index: 5;
+}
+
+h1{
+    text-align: center;
+    color:white;
+    font-size: 3em;
+}
+
+h2{
+    color:#032d5d;
+    font-size: 2.2em;
+    padding: 3vh 0;
+    text-align: center;
+}
+
+input, select{
+    min-height: 2em;
+    width:100%;
+}
+
+label{
+    display: block;
+    text-align: left;
+    padding:0.5em 0;
+}
+
+p{
+    margin:auto;
+    width:40%;
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+textarea{
+    width: 100%;
+}
+

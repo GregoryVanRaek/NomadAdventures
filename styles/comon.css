@@ -1,3 +1,9 @@
+/* Police 
+font-family: 'Manrope', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Quicksand', sans-serif;
+*/
+
 *{
     font-family:"Quicksand", sans-serif;
     scroll-behavior:smooth;
@@ -34,8 +40,7 @@ a {
     width:9em;
     padding:0.5em 0;
     border-radius: 10px white;
-    background: white;
-    cursor: help;
+    background: white
 }
 
 .current{
@@ -46,6 +51,11 @@ a {
 
 .current:hover{
     opacity: 70%;
+}
+
+footer{
+    margin-top: 3em;
+    background-color: #032d5d;
 }
 
 .icons{
@@ -72,6 +82,10 @@ a {
     font-size:1.2em;
 }
 
+li{
+    padding:0.3em 0 0.3em 0;
+}
+
 .logo{
     display:flex;
     width:100px;
@@ -83,9 +97,17 @@ a {
     opacity: 50%;
 }
 
+main{
+    background-color: #FFFFFF;
+}
+
+.main-pad{
+    padding-top: 14vh;
+}
+
 .menu {
     font-size:2em;
-    font-weight: 500;
+    font-weight: 400;
     display: flex;
     padding-right:25px;
     gap:60px;
@@ -123,13 +145,21 @@ a {
 }
 
 .network{
-    margin-top:2em;
     display:flex;
     background-color: #032d5d;
-    padding: 2em;
+    padding: 1em;
     gap:1em;
 }
 
 .network a:hover{
     opacity: 70%;
+}
+
+ul a{
+    color:white;
+}
+
+ul{
+    list-style: none;
+    padding-left: 0;
 }
