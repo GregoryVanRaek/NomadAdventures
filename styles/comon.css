@@ -121,7 +121,7 @@ main{
     background-color: #032d5d;
     color:white;
     position:fixed;
-    z-index: 1;
+    z-index: 3;
 }
 
 .menu-logo{
