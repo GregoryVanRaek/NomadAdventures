@@ -37,55 +37,56 @@
                 <p>Questions ? Conseils ? Demande d'informations ? Nous sommes à votre service ! <br> Remplissez le formulaire ci-dessous et cliquez sur "Envoyer". <br> Nous prendrons contact avec vous dans les meilleurs délais.</p>
 
                 <div class="background">
-                    <img src="../pictures/other/1.JPG" alt="">
-
+                    <img src="../pictures/other/1.JPG" alt=""> 
                     <img src="../pictures/other/2.JPG" alt="">
                 </div>
                 
-                <form method="get" action="./reservation.html"> <!-- Normalement method="post" -->
-                    
-                    <div>
-                        <label for="lastname">Nom</label>
-                        <input type="text" name="lastname" id="lastname" placeholder="Entrez votre nom" required minlength="3" maxlength="60">
-                    </div>
+                <div class="formulaire">
+                    <form method="get" action="./reservation.html"> <!-- Normalement method="post" -->
+    
+                        <div>
+                            <label for="lastname">Nom</label>
+                            <input type="text" name="lastname" id="lastname" placeholder="Entrez votre nom" required minlength="3" maxlength="50">
+                        </div>
 
-                    <div>
-                        <label for="firstname">Prénom</label>
-                        <input type="text" name="firstname" id="firstname" placeholder="Entrez votre prénom" required minlength="3" maxlength="50">
-                    </div>
+                        <div>
+                            <label for="firstname">Prénom</label>
+                            <input type="text" name="firstname" id="firstname" placeholder="Entrez votre prénom" required minlength="3" maxlength="50">
+                        </div>
 
-                    <div>
-                        <label for="email">Adresse mail</label>
-                        <input type="email" name="email" id="email" placeholder="Entrez votre email" required minlength="8" maxlength="50">
-                    </div>
+                        <div>
+                            <label for="email">Adresse mail</label>
+                            <input type="email" name="email" id="email" placeholder="Entrez votre email" required minlength="8" maxlength="50">
+                        </div>
 
-                    <div>
-                        <label for="tel">Téléphone</label>
-                        <input type="tel" name="tel" id="tel" placeholder="Entrez votre numero de téléphone" value="+32 " required>
-                    </div>
+                        <div>
+                            <label for="tel">Téléphone</label>
+                            <input type="tel" name="tel" id="tel" placeholder="Entrez votre numero de téléphone" value="+32 " required>
+                        </div>
 
-                    <div>
-                        <label for="voyage">Sujet</label>
-                        <select name="Sujet" id="voyage">
-                            <option value="0">Choisissez un sujet</option>
-                            <option value="1">Le canoëtrip</option>
-                            <option value="2">Randonnée</option>
-                            <option value="3">Roadtrip</option>
-                            <option value="4">Backpack</option>
-                            <option value="5">Un voyage sur mesure</option>
-                        </select>
-                    </div>
+                        <div>
+                            <label for="voyage">Sujet</label>
+                            <select name="Sujet" id="voyage">
+                                <option value="0">Choisissez un sujet</option>
+                                <option value="1">Le canoëtrip</option>
+                                <option value="2">Randonnée</option>
+                                <option value="3">Roadtrip</option>
+                                <option value="4">Backpack</option>
+                                <option value="5">Un voyage sur mesure</option>
+                            </select>
+                        </div>
 
-                    <div>
-                        <label for="message">Message <br></label>
-                        <textarea name="message" id="message" cols="" rows="10" placeholder="Expliquez-nous comment nous pouvons vous aider"></textarea>
-                    </div>
+                        <div>
+                            <label for="message">Message <br></label>
+                            <textarea name="message" id="message" cols="" rows="10" placeholder="Expliquez-nous comment nous pouvons vous aider"></textarea>
+                        </div>
 
-                    <div>
-                        <button type="submit">Envoyer</button>
-                    </div>
-                    
-                </form>
+                        <div>
+                            <button type="submit">Envoyer</button>
+                        </div>
+                            
+                    </form>
+                </div>
             </section>
         </main>
 

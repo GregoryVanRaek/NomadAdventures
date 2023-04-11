@@ -27,20 +27,19 @@ a {
     justify-content: center;
     border-radius: 10px;
     background: #032d5d;
+    color:white;
 }
 
 .cta a{
     color:white;
 }
 
-.cta a:hover{
+.cta:hover{
     display: flex;
     justify-content: center;
-    color:#032d5d;
     width:9em;
-    padding:0.5em 0;
-    border-radius: 10px white;
-    background: white
+    border-radius: 10px;
+    background: #083a74;
 }
 
 .current{

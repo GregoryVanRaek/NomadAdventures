@@ -1,11 +1,15 @@
 .background{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     position:absolute;
-    height:711px;
+    height:81.2%;
     width: 100%;
-    object-fit: cover;
-    z-index: 0;
+    object-fit: contain;
+}
+
+img{
+    position: relative;
+    width:33%;
 }
 
 button{
@@ -16,16 +20,15 @@ button{
     margin-top: 1em;
 }
 
-form{
-    position: relative;
+.formulaire{
     background:#032d5d;
     color: white;
     text-align: center;
     margin: auto;
     padding:3em 3em 1.5em 3em;
-    width:30%;
+    width:33%;
     border-radius: 5px;
-    z-index: 1;
+    position: relative;
 }
 
 h1{
