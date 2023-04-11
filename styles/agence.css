@@ -1,6 +1,7 @@
 .closed{
-    border: 1px solid black;
-    background: lightgray;
+    border: 1px solid white;
+    background: #efefef;
+    width:3vw;
 }
 
 .container{
@@ -8,6 +9,11 @@
     justify-content: center;
     gap:5vw;
     color: #032d5d;
+}
+
+.container-txt{
+    width:70%;
+    margin: 1.5em auto;
 }
 
 h2{
@@ -18,7 +24,31 @@ h2{
 }
 
 h3{
+    font-size: 1.5em;
+    margin:0 auto;
+    padding:40px 0;
+    width:70%;
     color: #032d5d;
+}
+
+h5{
+    font-size: 1.2em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #032d5d;
+}
+
+#tem{
+    padding-top: 85px;
+}
+
+.hours{
+    text-align: right;
+}
+
+.left{
+    text-align: left;
+    padding-left: 5em;
 }
 
 .logoagence{
@@ -32,30 +62,133 @@ h3{
     align-items: center;
 }
 
-.left{
-    text-align: left;
+tr{
+    border-bottom: 5px solid #fff;
 }
 
 .legend{
     font-weight: bold;
 }
 
+.inlinelink{
+    color:#032d5d;
+}
+
+.name{
+    font-size: 1.2em;
+}
+
 .open{
-    border:1px solid black;
+    border:1px solid #efefef;
+    width:3vw;
     background:green;
+}
+
+.openinghours{
+    width:50%;
+    margin: auto;
 }
 
 p{
     color:#032d5d;
+    font-size: 1.1em;
+    line-height: 1.7em;
+}
+
+.review{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.review-box{
+    display: flex;
+    margin:75px 0;
+    gap:15px;
+}
+
+.review-img{
+    width:100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+.review-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.review-quote{
+    display: flex;
+}
+
+.review-txt{
+    width:15em;
+}
+
+.star{
+    margin:20px 0 0 0;
+    position: relative;
+    display: block;
+    color: #f0ad4e;
+    width: 0px;
+    height: 0px;
+    border-right: 20px solid transparent;
+    border-bottom: 12px solid #f0ad4e;
+    border-left: 20px solid transparent;
+    transform: rotate(35deg);
+  }
+.star:before{
+    border-bottom: 20px solid #f0ad4e;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -12px;
+    left: -14px;
+    display: block;
+    content: '';
+    transform: rotate(-35deg);
+}
+.star:after {
+    position: absolute;
+    display: block;
+    color: #f0ad4e;
+    top: 1px;
+    left: -22px;
+    width: 0px;
+    height: 0px;
+    border-right: 20px solid transparent;
+    border-bottom: 12px solid #f0ad4e;
+    border-left: 20px solid transparent;
+    transform: rotate(-70deg);
+    content: '';
+}
+
+.gray{
+    color:gray;
+    border-bottom: 12px solid gray;
+}
+.gray:before{
+    color:gray;
+    border-bottom: 20px solid gray;
+}
+.gray:after{
+    color:gray;
+    border-bottom: 12px solid gray;
 }
 
 table{
     color:#032d5d;
+    border-collapse: collapse;
 }
 
 .team{
     display: flex;
     justify-content: space-around;
+    padding: 2em 0;
 }
 
 .teampic{
@@ -65,6 +198,11 @@ table{
 
 .teamdesc{
     width:300px;
-    height:200px;   
+    height:400px;   
     text-align: center;
+}
+
+.txt-title{
+    padding-right: 0.5em;
+    font-style: italic;
 }
