@@ -53,6 +53,11 @@ a {
     opacity: 70%;
 }
 
+.deroulant::after{
+    content:" ▼";
+    font-size:15px;
+}
+
 footer{
     margin-top: 5em;
     background-color: #032d5d;
@@ -153,6 +158,16 @@ main{
 
 .network a:hover{
     opacity: 70%;
+}
+
+.sous{
+    display: none;
+    position: absolute;
+    background-color: #032d5d;
+}
+
+li:hover .sous{
+    display: block;
 }
 
 ul a{
