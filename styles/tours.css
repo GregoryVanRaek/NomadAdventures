@@ -5,7 +5,7 @@
     background-color: #032d5d;
     box-shadow: 0px 15px 10px -5px #032d5d;
     background-size: 500px 500px;
-    animation: transition 90s ease-in-out infinite both;
+    animation: transition 80s ease-in-out infinite both;
 }
 
 .diapo:hover{

@@ -1,0 +1,93 @@
+.container{
+    display:flex;
+    justify-content: center;
+    gap:4vw;
+    padding-top: 3em;
+}
+
+.container-right{
+    width:40%;
+}
+
+h2, h3{
+    margin-top:3em;
+    text-align: center;
+}
+
+.icon{
+    width:50px;
+    height:50px;
+}
+
+img{
+    width:300px;
+    height:400px;
+}
+
+.itw-info ul{
+    display: flex;
+    justify-content: center;
+    gap:5em;
+}
+
+.itw-info-data{
+    display: flex;
+    align-items: center;
+    gap:15px;
+}
+
+.itw-info-detail{
+    margin:5em 0;
+    display: flex;
+    padding-left: 4em;
+    width:80%;
+    gap:2em;
+
+}
+
+.itw-title{
+    padding-left: 4em;
+}
+
+main{
+    color:#032d5d;
+}
+
+.reservation{
+    display: flex;
+    font-size: 2.2em;
+    width:14em;
+    justify-content: center;
+    border-radius: 10px;
+    background: #032d5d;
+    color:white;
+}
+
+.reservation:hover{
+    background: #083a74;
+}
+
+.shadow{
+    box-shadow: 3px 10px 10px -5px gray;
+}
+
+.sous-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.sous-container p{
+    width:300px;
+}
+
+strong{
+    text-transform:uppercase;
+}
+
+video{
+    object-fit: cover;
+    width:600px;
+    height:400px;
+}
+
