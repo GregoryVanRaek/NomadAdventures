@@ -1,50 +1,93 @@
-.diapo{
-    margin:60px auto;
-    width:500px;
-    height:500px;
-    background-color: #032d5d;
-    box-shadow: 0px 15px 10px -5px #032d5d;
-    background-size: 500px 500px;
-    animation: transition 80s ease-in-out infinite both;
+.container{
+    display:flex;
+    justify-content: center;
+    gap:4vw;
+    padding-top: 3em;
 }
 
-.diapo:hover{
-    animation-play-state: paused;
+.container-right{
+    width:40%;
 }
 
-p{
-    color:#032d5d;
-    margin:10vh auto;
+h2, h3{
+    margin-top:3em;
     text-align: center;
-    font-size:1.4em;
-    width:60%
 }
 
-@keyframes transition{
-    0%{background-image: url(../pictures/diapo/1.JPG);}
-    4%{background-image: url(../pictures/diapo/2.JPG);}
-    8%{background-image: url(../pictures/diapo/3.JPG);}
-    12%{background-image: url(../pictures/diapo/4.JPG);}
-    16%{background-image: url(../pictures/diapo/5.JPG);}
-    20%{background-image: url(../pictures/diapo/6.JPG);}
-    24%{background-image: url(../pictures/diapo/7.JPG);}
-    28%{background-image: url(../pictures/diapo/8.JPG);}
-    32%{background-image: url(../pictures/diapo/9.JPG);}
-    36%{background-image: url(../pictures/diapo/10.JPG);}
-    40%{background-image: url(../pictures/diapo/11.JPG);}
-    44%{background-image: url(../pictures/diapo/12.JPG);}
-    48%{background-image: url(../pictures/diapo/13.JPG);}
-    52%{background-image: url(../pictures/diapo/14.JPG);}
-    56%{background-image: url(../pictures/diapo/15.JPG);}
-    60%{background-image: url(../pictures/diapo/16.JPG);}
-    64%{background-image: url(../pictures/diapo/17.JPG);}
-    68%{background-image: url(../pictures/diapo/18.JPG);}
-    72%{background-image: url(../pictures/diapo/19.JPG);}
-    76%{background-image: url(../pictures/diapo/20.JPG);}
-    80%{background-image: url(../pictures/diapo/21.JPG);}
-    84%{background-image: url(../pictures/diapo/22.JPG);}
-    88%{background-image: url(../pictures/diapo/23.JPG);}
-    92%{background-image: url(../pictures/diapo/24.JPG);}
-    96%{background-image: url(../pictures/diapo/25.JPG);}
-    100%{background-image: url(../pictures/diapo/26.JPG);}
-} 
+.icon{
+    width:50px;
+    height:50px;
+}
+
+img{
+    width:300px;
+    height:400px;
+}
+
+.itw-info ul{
+    display: flex;
+    justify-content: center;
+    gap:5em;
+}
+
+.itw-info-data{
+    display: flex;
+    align-items: center;
+    gap:15px;
+}
+
+.itw-info-detail{
+    margin:5em 0;
+    display: flex;
+    padding-left: 4em;
+    width:80%;
+    gap:2em;
+
+}
+
+.itw-title{
+    padding-left: 4em;
+}
+
+main{
+    color:#032d5d;
+}
+
+.reservation{
+    display: flex;
+    font-size: 2.2em;
+    width:14em;
+    justify-content: center;
+    border-radius: 10px;
+    background: #032d5d;
+    color:white;
+}
+
+.reservation:hover{
+    background: #083a74;
+}
+
+.shadow{
+    box-shadow: 3px 10px 10px -5px gray;
+}
+
+.sous-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.sous-container p{
+    width:300px;
+}
+
+strong{
+    text-transform:uppercase;
+}
+
+video{
+    object-fit: cover;
+    width:600px;
+    height:400px;
+}
+
