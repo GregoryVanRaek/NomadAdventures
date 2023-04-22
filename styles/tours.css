@@ -1,3 +1,8 @@
+.big{
+    width:500px;
+    height:400px;
+}
+
 .container{
     display:flex;
     justify-content: center;
@@ -17,11 +22,6 @@ h2, h3{
 .icon{
     width:50px;
     height:50px;
-}
-
-img{
-    width:300px;
-    height:400px;
 }
 
 .itw-info ul{
@@ -71,6 +71,11 @@ main{
     box-shadow: 3px 10px 10px -5px gray;
 }
 
+.small{
+    width:300px;
+    height:400px;
+}
+
 .sous-container{
     display: flex;
     flex-direction: column;
@@ -91,3 +96,6 @@ video{
     height:400px;
 }
 
+.zoom{
+    cursor: zoom-in;
+}
