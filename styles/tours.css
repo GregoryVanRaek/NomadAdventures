@@ -6,12 +6,17 @@
 .container{
     display:flex;
     justify-content: center;
+    align-items: center;
     gap:4vw;
     padding-top: 3em;
 }
 
 .container-right{
     width:40%;
+}
+
+.formlink{
+    color:#032d5d;
 }
 
 h2, h3{
@@ -80,6 +85,7 @@ main{
     display: flex;
     flex-direction: column;
     text-align: center;
+    align-items: center;
 }
 
 .sous-container p{

@@ -24,7 +24,7 @@ a {
 .cta{
     display: flex;
     font-size: 2.2em;
-    width:9em;
+    width:8em;
     justify-content: center;
     border-radius: 10px;
     background: #032d5d;
@@ -38,7 +38,7 @@ a {
 .cta:hover{
     display: flex;
     justify-content: center;
-    width:9em;
+    width:8em;
     border-radius: 10px;
     background: #083a74;
 }
@@ -91,7 +91,7 @@ footer{
 
 li{
     padding:0.3em 0 0.3em 0;
-    color: #032d5d;
+    color: #032d5d; 
 }
 
 .logo{
