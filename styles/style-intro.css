@@ -43,11 +43,7 @@
     gap:60px;
 }
 
-h1{
-    text-align: center;
-    color:white;
-    font-size: 3em;
-}
+
 
 h2{
     color:#032d5d;
@@ -110,13 +106,6 @@ h3{
     font-style: italic;
 }
 
-p{
-    display: flex;
-    text-align: left;
-    color:#032d5d;
-    font-size: 1.5em;
-    width:20vw;
-}
 
 .picture{
     width:350px;
@@ -125,13 +114,28 @@ p{
     cursor: zoom-in;
 }
 
+.resume{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width:11em;
+    margin:1em 0;
+    gap:1em;
+}
+
 .section-pad{
     padding-top: 7vh;
 }
 
+.texte{
+    color:#032d5d;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
 .trip-logo{
+    display: flex;
     width:1.3em;
     height:1.3em;
-    margin-right: 1.5em;
-    margin-top:1.2em;
 }
+

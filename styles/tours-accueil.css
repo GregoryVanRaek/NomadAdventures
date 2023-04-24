@@ -12,7 +12,7 @@
     animation-play-state: paused;
 }
 
-p{
+.tours-intro {
     color:#032d5d;
     margin:10vh auto;
     text-align: center;

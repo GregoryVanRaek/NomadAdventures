@@ -1,3 +1,9 @@
+.agence-txt{
+    color:#032d5d;
+    font-size: 1.1em;
+    line-height: 1.7em;
+}
+
 .closed{
     border: 1px solid white;
     background: #efefef;
@@ -13,33 +19,21 @@
 
 .container-txt{
     width:70%;
-    margin: 1.5em auto;
+    margin:auto;
 }
 
 h2{
     color:#032d5d;
     font-size: 2.2em;
-    padding: 3vh 0;
+    margin: 3em 0;
     text-align: center;
 }
 
-h3{
-    font-size: 1.5em;
-    margin:0 auto;
-    padding:40px 0;
-    width:70%;
-    color: #032d5d;
-}
-
-h5{
+h4{
     font-size: 1.2em;
     text-transform: uppercase;
     text-align: center;
     color: #032d5d;
-}
-
-#tem{
-    padding-top: 85px;
 }
 
 .hours{
@@ -89,12 +83,6 @@ tr{
     margin: auto;
 }
 
-p{
-    color:#032d5d;
-    font-size: 1.1em;
-    line-height: 1.7em;
-}
-
 .review{
     display: flex;
     flex-direction: row;
@@ -104,7 +92,6 @@ p{
 
 .review-box{
     display: flex;
-    margin:75px 0;
     gap:15px;
 }
 
@@ -188,7 +175,6 @@ table{
 .team{
     display: flex;
     justify-content: space-around;
-    padding: 2em 0;
 }
 
 .teampic{
@@ -198,7 +184,7 @@ table{
 
 .teamdesc{
     width:300px;
-    height:400px;   
+    height:300px;
     text-align: center;
 }
 

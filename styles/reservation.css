@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     position:absolute;
-    height:81.2%;
+    height:76.5vh;
     width: 100%;
     object-fit: contain;
 }
@@ -31,6 +31,15 @@ button{
     position: relative;
 }
 
+.form-intro{
+    font-size: 1.1em;
+    color:#032d5d;
+    margin:auto;
+    width:40%;
+    text-align: center;
+    padding-bottom: 1em;
+}
+
 h1{
     text-align: center;
     color:white;
@@ -53,14 +62,6 @@ label{
     display: block;
     text-align: left;
     padding:0.5em 0;
-}
-
-p{
-    margin:auto;
-    width:40%;
-    text-align: center;
-    padding-bottom: 1em;
-    color:#032d5d
 }
 
 textarea{

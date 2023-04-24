@@ -1,6 +1,6 @@
 .big{
     width:500px;
-    height:400px;
+    height:500px;
 }
 
 .container{
@@ -8,7 +8,6 @@
     justify-content: center;
     align-items: center;
     gap:4vw;
-    padding-top: 3em;
 }
 
 .container-right{
@@ -19,8 +18,8 @@
     color:#032d5d;
 }
 
-h2, h3{
-    margin-top:3em;
+h2{
+    margin: 3em 0;
     text-align: center;
 }
 
@@ -60,7 +59,8 @@ main{
 
 .reservation{
     display: flex;
-    font-size: 2.2em;
+    margin-top: 1.5em;
+    font-size: 2em;
     width:14em;
     justify-content: center;
     border-radius: 10px;
@@ -94,6 +94,11 @@ main{
 
 strong{
     text-transform:uppercase;
+}
+
+.texte{
+    color:#032d5d;
+    font-size: 1.1em;
 }
 
 video{
