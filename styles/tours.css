@@ -14,6 +14,24 @@
     width:40%;
 }
 
+.cta-tours{
+    display: flex;
+    font-size: 2.2em;
+    width:8em;
+    justify-content: center;
+    border-radius: 10px;
+    background: #032d5d;
+    color:white;
+}
+
+.cta-tours:hover{
+    display: flex;
+    justify-content: center;
+    width:8em;
+    border-radius: 10px;
+    background: #083a74;
+}
+
 .formlink{
     color:#032d5d;
 }
