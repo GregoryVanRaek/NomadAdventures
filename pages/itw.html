@@ -16,30 +16,31 @@
     <body>
         <header id="top">
             <nav class="menu-bar">
-                <div>
+                <div class="logotitle">
                     <a href="./index.html"><img class="logo" src="../pictures/logo/logo3.png" alt="Logo de la société"></a>
-                </div>
-                <div>
                     <a href="./index.html"><h1>Nomad Adventures</h1></a>
                 </div>
-                <ul class="menu">
-                    <li><a class="menu-txt" href="./index.html">Accueil</a></li>
-                    <li><a class="menu-txt" href="./agence.html">L'agence</a></li>
-                    <li>
-                        <a class="menu-txt current deroulant" href="./tours.html">Les tours</a>
-                        <ul class="sous">
-                            <li><a class="menu-txt current" href="../pages/itw.html">ITW</a></li>
-                            <li><a class="menu-txt" href="../pages/randos.html">Randos</a></li>
-                            <li><a class="menu-txt" href="../pages/roadtrip.html">Roadtrip</a></li>
-                            <li><a class="menu-txt" href="../pages/backpack.html">Backpack</a></li>
-                        </ul>
-                    </li>
-                    <li><a class="menu-txt" href="./reservation.html">Réservation</a></li>
-                </ul>
+                <div>
+                    <ul class="menu">
+                        <li><a class="menu-txt current" href="./index.html">Accueil</a></li>
+                        <li><a class="menu-txt" href="./agence.html">L'agence</a></li>
+                        <li><a class="menu-txt" href="./tours.html">Les tours</a></li>
+                        <li><a class="menu-txt" href="./reservation.html">Réservation</a></li>
+                    </ul>
+                </div>
+                
+                <img class="menu-hamb" src="../pictures/logo/menu.png" alt="">
+                <script>
+                    const menuHamburger = document.querySelector(".menu-hamb")
+                    const navLinks = document.querySelector(".menu")
+                    menuHamburger.addEventListener('click',()=>{
+                    navLinks.classList.toggle('menu-mobile')
+                    })
+                </script>
             </nav>
         </header>
 
-        <main class="main-pad">
+        <main class="tours-pad">
 
             <section>
                 <h2>Into the wild - Le trip en Canoë</h2>
@@ -159,21 +160,21 @@
                 <h2>Planning de la semaine</h2>
                 <div class="container texte">
                     <div class="sous-container shadow">
-                        <img class="small" src="../pictures/travel/suede/arrivee.JPG" alt="">
+                        <img class="small mobile-img" src="../pictures/travel/suede/arrivee.JPG" alt="">
                         <div>
                             <h4>Jour d'arrivée</h4>
                             <p>Le jour d'arrivée, tu recevras toutes les instructions et le matériel nécessaire pour survivre une semaine sur les lacs. On te montrera aussi comment utiliser le matériel de cuisine, ça serait dommage que tu te brûles ! Ensuite, tu partiras directement sur l'eau pour débuter ton aventure !</p>
                         </div>
                     </div>
                     <div class="sous-container shadow">
-                        <img class="small" src="../pictures/travel/suede/sejour.JPG" alt="">
+                        <img class="small mobile-img" src="../pictures/travel/suede/sejour.JPG" alt="">
                         <div>
                             <h4>Jour 2 à 7</h4>
                             <p>Du jour d'arrivée au jour 7, tu navigueras sur les vastes lacs de Suède pendant 7 jours. Tu passeras ensuite la dernière nuit au camp de base. Si tu souhaites écourter ou rallonger l'aventure, n'hésites pas à en faire part à nos guides. Ils pourront t'indiquer sur ta carte les moyens de le faire.</p>
                         </div>
                     </div>
                     <div class="sous-container shadow">
-                        <img class="small" src="../pictures/travel/suede/retour.JPG" alt="">
+                        <img class="small mobile-img" src="../pictures/travel/suede/retour.JPG" alt="">
                         <div>
                             <h4>Retour</h4>
                             <p>Le dernier jour (jour 8), tu pourras te reposer une journée au camp de base. Profite de l'occasion pour déguster une de nos bières ou pour manger un repas frais. Tu auras aussi l'opportunité de participer à l'une ou l'autre activité avec les autres participants en attendant le départ du bus</p>

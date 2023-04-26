@@ -287,6 +287,10 @@ ul{
     {
         font-size:0.9em;
     }
+
+    .logo:hover {
+        opacity: 100%;
+    }
 }
 
 @media screen and (max-width: 768px)

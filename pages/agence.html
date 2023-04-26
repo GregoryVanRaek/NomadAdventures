@@ -16,26 +16,27 @@
     <body>
         <header id="top">
             <nav class="menu-bar">
-                <div>
+                <div class="logotitle">
                     <a href="./index.html"><img class="logo" src="../pictures/logo/logo3.png" alt="Logo de la société"></a>
-                </div>
-                <div>
                     <a href="./index.html"><h1>Nomad Adventures</h1></a>
                 </div>
-                <ul class="menu">
-                    <li><a class="menu-txt" href="./index.html">Accueil</a></li>
-                    <li><a class="menu-txt current" href="./agence.html">L'agence</a></li>
-                    <li>
-                        <a class="menu-txt deroulant" href="./tours.html">Les tours</a>
-                        <ul class="sous">
-                            <li><a class="menu-txt" href="../pages/itw.html">ITW</a></li>
-                            <li><a class="menu-txt" href="../pages/randos.html">Randos</a></li>
-                            <li><a class="menu-txt" href="../pages/roadtrip.html">Roadtrip</a></li>
-                            <li><a class="menu-txt" href="../pages/backpack.html">Backpack</a></li>
-                        </ul>
-                    </li>
-                    <li><a class="menu-txt" href="./reservation.html">Réservation</a></li>
-                </ul>
+                <div>
+                    <ul class="menu">
+                        <li><a class="menu-txt" href="./index.html">Accueil</a></li>
+                        <li><a class="menu-txt current" href="./agence.html">L'agence</a></li>
+                        <li><a class="menu-txt" href="./tours.html">Les tours</a></li>
+                        <li><a class="menu-txt" href="./reservation.html">Réservation</a></li>
+                    </ul>
+                </div>
+                
+                <img class="menu-hamb" src="../pictures/logo/menu.png" alt="">
+                <script>
+                    const menuHamburger = document.querySelector(".menu-hamb")
+                    const navLinks = document.querySelector(".menu")
+                    menuHamburger.addEventListener('click',()=>{
+                    navLinks.classList.toggle('menu-mobile')
+                    })
+                </script>
             </nav>
         </header>
 
@@ -146,7 +147,7 @@
                                     <span class="star"></span>
                                 </div>
                                 <div>
-                                    <p class="review-txt agence-txt">Première expérience de randonnée pour ma part avec Nomad Adventure et je n'ai pas été déçu malgré la température hivernale ! Organisation au top.</p>
+                                    <p class="review-txt">Première expérience de randonnée pour ma part avec Nomad Adventure et je n'ai pas été déçu malgré la température hivernale ! Organisation au top.</p>
                                 </div>
                             </div>
                         </div>
@@ -167,7 +168,7 @@
                                     <span class="star"></span>
                                 </div>
                                 <div>
-                                    <p class="review-txt agence-txt">J'ai eu l'occasion de partir en Laponie avec Nomad Adventures (voyage sur mesure) et j'ai véçu un des plus beaux moments de ma vie ! L'organisation a été impeccable du début à la fin. Ils m'ont proposé plusieurs itinéraires et j'ai été libre de choisir par moi-même. Je recommande !</p>
+                                    <p class="review-txt">J'ai eu l'occasion de partir en Laponie avec Nomad Adventures (voyage sur mesure) et j'ai véçu un des plus beaux moments de ma vie ! L'organisation a été impeccable du début à la fin. Ils m'ont proposé plusieurs itinéraires et j'ai été libre de choisir par moi-même. Je recommande !</p>
                                 </div>
                             </div>
                         </div>
@@ -188,7 +189,7 @@
                                     <span class="star gray"></span>
                                 </div>
                                 <div>
-                                    <p class="review-txt agence-txt">La découverte de l'Irlande en voiture avec Nomad Adventures a été un franc succès. Je retire une étoile car le guide était un peu trop sportif à mon goût (les randonnées était plus longues que prévu)</p>
+                                    <p class="review-txt">La découverte de l'Irlande en voiture avec Nomad Adventures a été un franc succès. Je retire une étoile car le guide était un peu trop sportif à mon goût (les randonnées était plus longues que prévu)</p>
                                 </div>
                             </div>
                         </div>
@@ -209,7 +210,7 @@
                                     <span class="star"></span>
                                 </div>
                                 <div>
-                                    <p class="review-txt agence-txt">N'ayant pas l'habitude de voyager, je me suis laissé totalement porter par l'organisation pour le roadtrip en islande. Réussite totale, tout est prévu pendant votre séjour pour que vous n'ayez à vous tracasser de rien, juste profiter.</p>
+                                    <p class="review-txt">N'ayant pas l'habitude de voyager, je me suis laissé totalement porter par l'organisation pour le roadtrip en islande. Réussite totale, tout est prévu pendant votre séjour pour que vous n'ayez à vous tracasser de rien, juste profiter.</p>
                                 </div>
                             </div>
                         </div>
@@ -220,7 +221,7 @@
                             </div>
                             <div class="review-container">
                                 <div>
-                                    <span class="name">Arnaud H.</span>
+                                    <span class="nam e">Arnaud H.</span>
                                 </div>
                                 <div class="review-quote">
                                     <span class="star"></span>
@@ -230,7 +231,7 @@
                                     <span class="star gray"></span>
                                 </div>
                                 <div>
-                                    <p class="review-txt agence-txt">Première expérience de voyage en canoë. Processus de réservation rapide. Bonne communication pratique avant le départ. Sur place, les guides étaient très sympa et très complet sur les explications. Seul bémol, le foodpack ne m'a pas plu personellement.</p>
+                                    <p class="review-txt">Première expérience de voyage en canoë. Processus de réservation rapide. Bonne communication pratique avant le départ. Sur place, les guides étaient très sympa et très complet sur les explications. Seul bémol, le foodpack ne m'a pas plu personellement.</p>
                                 </div>
                             </div>
                         </div>
@@ -241,7 +242,7 @@
             <section> <!-- Heures d'ouverture -->
                 <div>
                     <h2>Nos heures d'ouverture</h2>
-                    <div class="openinghours">
+                    <div class="openinghours-desk">
                         <table>
                             <tbody>
                                 <tr>
@@ -368,6 +369,32 @@
                             </tbody>
                         </table>
                     </div>
+                    <div class="openinghours-mobile">
+                        <p>Lundi : <br>
+                            Ouverture de 13:00 à 19:00;
+                        </p>
+                        <p>Mardi : <br>
+                            Ouverture de 08:00 à 17:00 <br>
+                            Fermeture de 12:00 à 13:00;
+                        </p>
+                        <p>Mercredi : <br>
+                            Ouverture de 08:00 à 12:00;
+                        </p>
+                        <p>Jeudi : <br>
+                            Ouverture de 13:00 à 19:00;
+                        </p>
+                        <p>Vendredi : <br>
+                            Ouverture de 08:00 à 17:00 <br>
+                            Fermeture de 12:00 à 13:00;
+                        </p>
+                        <p>Samedi : <br>
+                            Ouverture de 08:00 à 12:00;
+                        </p>
+                        <p>Dimanche : <br>
+                            Jour de fermeture;
+                        </p>
+                    </div>
+
                 </div>
             </section>
         </main>

@@ -16,26 +16,27 @@
     <body>
         <header id="top">
             <nav class="menu-bar">
-                <div>
-                    <a href="./index.html"><img class="logo" src="../pictures/logo/logo4.png" alt="Logo de la société"></a>
-                </div>
-                <div>
+                <div class="logotitle">
+                    <a href="./index.html"><img class="logo" src="../pictures/logo/logo3.png" alt="Logo de la société"></a>
                     <a href="./index.html"><h1>Nomad Adventures</h1></a>
                 </div>
-                <ul class="menu">
-                    <li><a class="menu-txt" href="./index.html">Accueil</a></li>
-                    <li><a class="menu-txt" href="./agence.html">L'agence</a></li>
-                    <li>
-                        <a class="menu-txt current deroulant" href="./tours.html">Les tours</a>
-                        <ul class="sous">
-                            <li><a class="menu-txt" href="../pages/itw.html">ITW</a></li>
-                            <li><a class="menu-txt" href="../pages/randos.html">Randos</a></li>
-                            <li><a class="menu-txt" href="../pages/roadtrip.html">Roadtrip</a></li>
-                            <li><a class="menu-txt current" href="../pages/backpack.html">Backpack</a></li>
-                        </ul>
-                    </li>
-                    <li><a class="menu-txt" href="./reservation.html">Réservation</a></li>
-                </ul>
+                <div>
+                    <ul class="menu">
+                        <li><a class="menu-txt current" href="./index.html">Accueil</a></li>
+                        <li><a class="menu-txt" href="./agence.html">L'agence</a></li>
+                        <li><a class="menu-txt" href="./tours.html">Les tours</a></li>
+                        <li><a class="menu-txt" href="./reservation.html">Réservation</a></li>
+                    </ul>
+                </div>
+                
+                <img class="menu-hamb" src="../pictures/logo/menu.png" alt="">
+                <script>
+                    const menuHamburger = document.querySelector(".menu-hamb")
+                    const navLinks = document.querySelector(".menu")
+                    menuHamburger.addEventListener('click',()=>{
+                    navLinks.classList.toggle('menu-mobile')
+                    })
+                </script>
             </nav>
         </header>
 
@@ -187,7 +188,7 @@
                 <h2>Planning de la semaine</h2>
                 <div class="container texte">
                     <div class="sous-container shadow">
-                        <img class="big" src="../pictures/travel/equateur/continent.JPG" alt="">
+                        <img class="big mobile-img" src="../pictures/travel/equateur/continent.JPG" alt="">
                         
                         <div>
                             <h4>Première partie - Le continent (2 semaines)</h4>
@@ -195,7 +196,7 @@
                         </div>
                     </div>
                     <div class="sous-container shadow">
-                        <img class="big" src="../pictures/travel/equateur/galapagos.JPG" alt="">
+                        <img class="big mobile-img" src="../pictures/travel/equateur/galapagos.JPG" alt="">
                         <div>
                             <h4>Deuxième partie - Les Galapagos (1 semaine)</h4>
                             <p>

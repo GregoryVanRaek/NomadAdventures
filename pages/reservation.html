@@ -16,30 +16,31 @@
     <body>
         <header id="top">
             <nav class="menu-bar">
-                <div>
+                <div class="logotitle">
                     <a href="./index.html"><img class="logo" src="../pictures/logo/logo3.png" alt="Logo de la société"></a>
-                </div>
-                <div>
                     <a href="./index.html"><h1>Nomad Adventures</h1></a>
                 </div>
-                <ul class="menu">
-                    <li><a class="menu-txt" href="./index.html">Accueil</a></li>
-                    <li><a class="menu-txt" href="./agence.html">L'agence</a></li>
-                    <li>
-                        <a class="menu-txt deroulant" href="./tours.html">Les tours</a>
-                        <ul class="sous">
-                            <li><a class="menu-txt" href="../pages/itw.html">ITW</a></li>
-                            <li><a class="menu-txt" href="../pages/randos.html">Randos</a></li>
-                            <li><a class="menu-txt" href="../pages/roadtrip.html">Roadtrip</a></li>
-                            <li><a class="menu-txt" href="../pages/backpack.html">Backpack</a></li>
-                        </ul>
-                    </li>
-                    <li><a class="menu-txt current" href="./reservation.html">Réservation</a></li>
-                </ul>
+                <div>
+                    <ul class="menu">
+                        <li><a class="menu-txt current" href="./index.html">Accueil</a></li>
+                        <li><a class="menu-txt" href="./agence.html">L'agence</a></li>
+                        <li><a class="menu-txt" href="./tours.html">Les tours</a></li>
+                        <li><a class="menu-txt" href="./reservation.html">Réservation</a></li>
+                    </ul>
+                </div>
+                
+                <img class="menu-hamb" src="../pictures/logo/menu.png" alt="">
+                <script>
+                    const menuHamburger = document.querySelector(".menu-hamb")
+                    const navLinks = document.querySelector(".menu")
+                    menuHamburger.addEventListener('click',()=>{
+                    navLinks.classList.toggle('menu-mobile')
+                    })
+                </script>
             </nav>
         </header>
 
-        <main class="main-pad">
+        <main class="res-pad">
             <section>
                 <h2>Réservation</h2>
                 <p class="form-intro">Questions ? Conseils ? Demande d'informations ? Nous sommes à votre service ! <br> Remplissez le formulaire ci-dessous et cliquez sur "Envoyer". <br> Nous prendrons contact avec vous dans les meilleurs délais.</p>

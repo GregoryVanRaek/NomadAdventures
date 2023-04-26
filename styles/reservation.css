@@ -7,11 +7,6 @@
     object-fit: contain;
 }
 
-img{
-    position: relative;
-    width:33%;
-}
-
 button{
     width:40%;
     border-radius: 10px;
@@ -26,7 +21,7 @@ button{
     text-align: center;
     margin: auto;
     padding:3em 3em 1.5em 3em;
-    width:33%;
+    width:33.3%;
     border-radius: 5px;
     position: relative;
 }
@@ -35,9 +30,8 @@ button{
     font-size: 1.1em;
     color:#032d5d;
     margin:auto;
-    width:40%;
     text-align: center;
-    padding-bottom: 1em;
+    padding-bottom: 3em;
 }
 
 h1{
@@ -51,6 +45,16 @@ h2{
     font-size: 2.2em;
     padding: 3vh 0;
     text-align: center;
+}
+
+header{
+    padding-bottom: 3em;
+}
+
+img{
+    position: relative;
+    width:33.3%;
+    height:714px;
 }
 
 input, select{
@@ -68,3 +72,33 @@ textarea{
     width: 100%;
 }
 
+.res-pad{
+    padding-top:3em;
+}
+
+@media screen and (max-width:1024px)
+{
+    .background{
+        display: none;
+    }
+
+    .formulaire{
+        width:60%;
+    }
+}
+
+
+@media screen and (max-width:1024px)
+{
+    header{
+        padding-bottom: 5em;
+    }
+
+    .form-intro{
+        width:80%;
+    }
+
+    .formulaire{
+        width:70%;
+    }
+}

@@ -16,30 +16,31 @@
     <body>
         <header id="top">
             <nav class="menu-bar">
-                <div>
+                <div class="logotitle">
                     <a href="./index.html"><img class="logo" src="../pictures/logo/logo3.png" alt="Logo de la société"></a>
-                </div>
-                <div>
                     <a href="./index.html"><h1>Nomad Adventures</h1></a>
                 </div>
-                <ul class="menu">
-                    <li><a class="menu-txt" href="./index.html">Accueil</a></li>
-                    <li><a class="menu-txt" href="./agence.html">L'agence</a></li>
-                    <li>
-                        <a class="menu-txt current deroulant" href="./tours.html">Les tours</a>
-                        <ul class="sous">
-                            <li><a class="menu-txt" href="../pages/itw.html">ITW</a></li>
-                            <li><a class="menu-txt current" href="../pages/randos.html">Randos</a></li>
-                            <li><a class="menu-txt" href="../pages/roadtrip.html">Roadtrip</a></li>
-                            <li><a class="menu-txt" href="../pages/backpack.html">Backpack</a></li>
-                        </ul>
-                    </li>
-                    <li><a class="menu-txt" href="./reservation.html">Réservation</a></li>
-                </ul>
+                <div>
+                    <ul class="menu">
+                        <li><a class="menu-txt current" href="./index.html">Accueil</a></li>
+                        <li><a class="menu-txt" href="./agence.html">L'agence</a></li>
+                        <li><a class="menu-txt" href="./tours.html">Les tours</a></li>
+                        <li><a class="menu-txt" href="./reservation.html">Réservation</a></li>
+                    </ul>
+                </div>
+                
+                <img class="menu-hamb" src="../pictures/logo/menu.png" alt="">
+                <script>
+                    const menuHamburger = document.querySelector(".menu-hamb")
+                    const navLinks = document.querySelector(".menu")
+                    menuHamburger.addEventListener('click',()=>{
+                    navLinks.classList.toggle('menu-mobile')
+                    })
+                </script>
             </nav>
         </header>
 
-        <main class="main-pad">
+        <main class="tours-pad">
 
             <section>
                 <h2>Randonnée - Açores</h2>
@@ -166,28 +167,28 @@
                 <h2>Planning de la semaine</h2>
                 <div class="container ">
                     <div class="sous-container shadow">
-                        <img class="small" src="../pictures/travel/acores/arrivee.JPG" alt="">
+                        <img class="small mobile-img" src="../pictures/travel/acores/arrivee.JPG" alt="">
                         <div>
                             <h4>Jour d'arrivée</h4>
                             <p class="texte">Le jour d'arrivée, tu seras accueillià l'aéroport par un de nos guide. Il te mènera à notre camp de base et te donnera toutes les instructions nécessaires pour que ton séjour se passe bien. Si tu as réservé du matériel, il te le fournira à ce moment là également. C'est le moment pour poser tes questions !</p>
                         </div>
                     </div>
                     <div class="sous-container shadow">
-                        <img class="small" src="../pictures/travel/acores/saomiguel.JPG" alt="">
+                        <img class="small mobile-img" src="../pictures/travel/acores/saomiguel.JPG" alt="">
                         <div>
                             <h4>Jour 2 à 7</h4>
                             <p class="texte">La première partie de la randonnée s'effectuera sur l'ile de Sao Miguel. La boucle devrait te prendre maximum 7 jours. Tu passeras assez régulièrement par des petits villages. Lors de ton retour à notre camp, nous t'emmenerons en bateau sur l'ile de Flores pour la poursuite de ton aventure.</p>
                         </div>
                     </div>
                     <div class="sous-container shadow">
-                        <img class="small" src="../pictures/travel/acores/flores.JPG" alt="">
+                        <img class="small mobile-img" src="../pictures/travel/acores/flores.JPG" alt="">
                         <div>
                             <h4>Jour 8 à 15</h4>
                             <p class="texte">La seconde partie de la randonnée sera plus exigeante que la première. L'ile de Flores est bien plus sauvage que l'Ile de Sao Miguel. Tu découvriras la beauté de sa jungle et ses oiseaux pour le moins étranges... Mais n'aies pas de crainte, bien qu'ils n'aient pas peur des humains, ils sont inofensifs. </p>
                         </div>
                     </div>
                     <div class="sous-container shadow">
-                        <img class="small" src="../pictures/travel/acores/retour.JPG" alt="">
+                        <img class="small mobile-img" src="../pictures/travel/acores/retour.JPG" alt="">
                         <div>
                             <h4>Retour</h4>
                             <p class="texte">Tu arriveras à notre camp au cours du 15ème jour. On ira ensemble au restaurant ce soir là pour discuter de tes 2 semaines de randonnées. Tu rejoindras ensuite ta chambre d'hotel pour la nuit, tu l'as bien mérité ! La journée du lendemain est destinée uniquement au voyage de retour. </p>

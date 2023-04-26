@@ -37,7 +37,7 @@
 }
 
 h2{
-    margin: 3em 0;
+    margin: 3em 0 2em 0;
     text-align: center;
 }
 
@@ -64,7 +64,6 @@ h2{
     padding-left: 4em;
     width:80%;
     gap:2em;
-
 }
 
 .itw-title{
@@ -79,7 +78,7 @@ main{
     display: flex;
     margin-top: 1.5em;
     font-size: 2em;
-    width:14em;
+    width:350px;
     justify-content: center;
     border-radius: 10px;
     background: #032d5d;
@@ -119,6 +118,10 @@ strong{
     font-size: 1.1em;
 }
 
+.tours-pad{
+    padding-top: 14vh;
+}
+
 video{
     object-fit: cover;
     width:600px;
@@ -127,4 +130,100 @@ video{
 
 .zoom{
     cursor: zoom-in;
+}
+
+@media screen and (max-width: 1100px){
+
+    .mobile-img{
+        width:350px;
+        height:350px;
+    }
+
+    .container{
+        margin:auto;
+        flex-direction: column; 
+        width:90%;
+    }
+
+    .container-right{
+        width:80%;
+    }
+
+    h2{
+        margin: 2em 0 2em 0;
+    }
+
+    h4{
+        text-align: center;
+    }
+
+    .reservation:hover{
+        background: #032d5d;
+    }
+
+    .sous-container{
+        flex-direction: row-reverse;    
+        text-align: left;
+    }
+
+}
+
+@media screen and (max-width:600px)
+{   
+
+    .big{
+        width:300px;
+        height:250px;
+    }
+
+    .container{
+        text-align: center;
+    }
+
+    .container-right{
+        width:90%;
+    }
+
+    header{
+        padding-bottom: 6em;
+    }
+
+    h2{
+        margin: 1em 0 1em 0;      
+    }
+
+    .itw-info ul{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width:90%;
+        gap:0;
+    }
+    
+    .itw-info-data{
+        justify-content: left;
+        width:300px;
+    }
+
+    .itw-info-data-descrip{
+        margin: auto;
+    }
+
+    .mobile-img{
+        display:none;
+    }
+
+    .reservation{
+        margin-top: 1.7em;
+        font-size: 1.7em;
+        width:250px;
+    }
+
+    .sous-container{
+        text-align: center;
+    }
+
+    video{
+        display:none;
+    }
 }

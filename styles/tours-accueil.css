@@ -1,13 +1,13 @@
 .container{
     display: flex;
     justify-content: center;
-    gap:25px;
+    flex-wrap: wrap;
+    gap:3em;
 }
 
 .cta-tours{
-    width:250px;
     text-align: center;
-    gap:25px;
+    width:6em;
     font-size: 2.2em;
     border-radius: 10px;
     background: #032d5d;
@@ -15,7 +15,7 @@
 }
 
 .cta-tours:hover{
-    width:250px;
+    width:6em;
     background: #083a74;
 }
 
@@ -35,10 +35,10 @@
 
 .tours-intro {
     color:#032d5d;
-    margin:10vh auto;
+    margin:3em auto;
     text-align: center;
     font-size:1.4em;
-    width:60%
+    width:80%
 }
 
 @keyframes transition{
@@ -69,3 +69,23 @@
     96%{background-image: url(../pictures/diapo/25.JPG);}
     100%{background-image: url(../pictures/diapo/26.JPG);}
 } 
+
+@media screen and (max-width: 1280px){
+    .cta-tours:hover{
+        background:#032d5d;
+    }
+}
+
+@media screen and (max-width: 500px){
+     .diapo{
+        width:90%;
+        height:300px;
+        background-size: 100% 300px;
+    } 
+
+    .tours-intro {
+        font-size: 1.2em;;
+        margin:7em auto 2em auto;
+    }
+
+}
