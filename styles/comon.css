@@ -184,6 +184,10 @@ main{
     opacity: 70%;
 }
 
+.shadow{
+    box-shadow: 3px 10px 10px -5px gray;
+}
+
 .sous{
     display: none;
     position: absolute;
