@@ -34,6 +34,13 @@
     animation-play-state: paused;
 }
 
+h2{
+    color:#032d5d;
+    font-size: 2.2em;
+    margin: 0 0 2em 0;
+    text-align: center;
+}
+
 .pic{
     display: none;
 }

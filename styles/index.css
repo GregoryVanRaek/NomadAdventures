@@ -221,4 +221,8 @@ li.resume{
         gap:2em;
     }
 
+    h2{
+        padding: 5vh 0;
+    }
+
 }
