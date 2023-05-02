@@ -13,6 +13,8 @@ button{
     min-height: 2em;
     font-size: 1.2em;
     margin-top: 1em;
+    cursor: pointer;
+    color:#032d5d;
 }
 
 .formulaire{
@@ -22,7 +24,6 @@ button{
     margin: auto;
     padding:3em 3em 1.5em 3em;
     width:33.3%;
-    border-radius: 5px;
     position: relative;
 }
 
@@ -54,12 +55,17 @@ header{
 img{
     position: relative;
     width:33.3%;
-    height:714px;
+    height:713px;
 }
 
 input, select{
     min-height: 2em;
     width:100%;
+    color: #032d5d;
+}
+
+::placeholder{
+    color:#032d5d
 }
 
 label{
@@ -70,6 +76,7 @@ label{
 
 textarea{
     width: 100%;
+    color: #032d5d
 }
 
 .res-pad{

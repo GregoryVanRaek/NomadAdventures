@@ -9,7 +9,7 @@
     justify-content: center;
     gap:5vw;
     flex-wrap: wrap;
-    padding-top: 2vh;
+    padding-bottom: 4em;
     }
 
 .ancre-button{
@@ -20,6 +20,7 @@
     background: #032d5d;
     border-radius: 10px;
     width:200px;
+    padding:0.1em;
     color:white;
 }
 
@@ -60,28 +61,33 @@ h3{
     color:white;
 }
 
+.intro-cta-container{
+    display: flex;
+    justify-content: center;
+}
+
 .intro-cta{
     display: flex;
-    position: absolute;
     justify-content: center;
+    position: absolute;
     top:70%;
-    left:43%;
     font-size: 2.5em;
     border-radius: 10px;
     background: #032d5d;
-    width:200px;
+    width:auto;
+    padding:0.1em 0.5em;
     color:white;
 }
 
 .intro-cta:hover{
     display: flex;
     border-radius: 10px;
-    width:200px;
+    width:auto;
     background: #083a74;
     justify-content: center;
 }
 
-.intro-img{
+.intro-pic{
     width:100%;
     height:600px;
     object-fit:cover;
@@ -122,14 +128,9 @@ h3{
 
 li.resume{
     display: flex;
-    align-items: center;
-    width:10em;
+    width:auto;
     margin:1em 0;
     gap:1em;
-}
-
-.section-pad{
-    padding-top: 10vh;
 }
 
 .texte{
@@ -160,19 +161,8 @@ li.resume{
     .content-cta{
         width:90%;
     }
-
-    .intro-cta{
-        top:72%;
-        font-size: 1.9em;
-        width:175px;
-    }
     
-    .intro-cta:hover{
-        width:175px;
-        background: #032d5d
-    }
-
-    .intro-img{
+    .intro-pic{
         height:500px;
     }
 
@@ -189,7 +179,7 @@ li.resume{
     } 
 
     li.resume{
-        width:10em;
+        width:auto;
         margin:1em 0;
         gap:1em;
         justify-content: center;
@@ -200,11 +190,7 @@ li.resume{
 @media screen and (max-width: 768px)
 {
     .align{
-        padding-top:18vh;
-    }
-
-    .ancre{
-        padding: 7vh 0 0 0;
+        padding-top:10vh;
     }
 
     .ancre-button{
@@ -212,9 +198,7 @@ li.resume{
     }
 
     .intro-cta{
-        font-size: 1.4em;
-        width:125px;
-        top:65%;
+        font-size: 1.8em;
     }
 
     .intro-txt h2{
@@ -223,11 +207,7 @@ li.resume{
     }
     
     li.resume{
-        justify-content: left;
-    }
-
-    .section-pad{
-        padding-top: 10vh;
+        margin:0.5em;
     }
 } 
 
@@ -241,12 +221,4 @@ li.resume{
         gap:2em;
     }
 
-    .intro-cta{
-        top:68%;
-        margin-left: -10%;
-    }
-
-    .section-pad{
-        padding-top: 11vh;
-    }
 }
