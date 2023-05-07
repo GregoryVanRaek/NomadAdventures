@@ -93,10 +93,6 @@ textarea{
 
 @media screen and (max-width:1024px)
 {
-    header{
-        padding-bottom: 5em;
-    }
-
     .form-intro{
         width:80%;
     }
