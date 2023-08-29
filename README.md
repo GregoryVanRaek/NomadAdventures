@@ -1,2 +1,3 @@
 # ProjetWeb
-This is my first website build in simple html and css.
+Embarking on my coding journey, I present my inaugural website, crafted using basic HTML and CSS. 
+It has been created during the first year of my bachelor degrees in computer science.
